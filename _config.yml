@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Jiabao ZHAI"
-description              : "Power System Reliability & Resilience · Smart Grids · AI for Energy"
+description              : "Power System Reliability and Resilience · Smart Grids · AI for Energy"
 url                      : "https://jiabaoz-linus.github.io"
 baseurl                  : ""
 lang                     : "en"
@@ -32,7 +32,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Jiabao ZHAI"
+  name             : "Jiabao ZHAI (翟嘉宝)"
   avatar           : "/images/西施惠.jpg"
   bio              : "Ph.D. Student · HKUST (Guangzhou)"
   location         : "Guangzhou, China"

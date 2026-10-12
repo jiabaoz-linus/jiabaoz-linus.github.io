@@ -13,7 +13,7 @@ redirect_from:
 
 <span class="anchor" id="about-me"></span>
 
-# Hi, I'm Jiabao ZHAI
+# Hi, I'm Jiabao ZHAI (翟嘉宝)
 
 I am a **Ph.D. student in Sustainable Energy and Environment at the Hong Kong University of Science and Technology (Guangzhou)**, advised by [Prof. Xiangyu Li](https://xiangyu5262985.github.io/). Previously, I received my master's degree in Management Science and Engineering and my bachelor's degree in Statistics from **Zhengzhou University**, advised by [Prof. Hongyan Dui](https://scholar.google.com/citations?hl=en&user=N7MzyEQAAAAJ) and [Prof. Yanan Hu](https://www5.zzu.edu.cn/sxy/info/1322/8101.htm), respectively.
 
