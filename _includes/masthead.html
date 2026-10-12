@@ -2,7 +2,6 @@
 <header class="site-toolbar">
   <a class="site-brand" href="{{ page.url | relative_url }}">{{ ui.home_name }}</a>
   <div class="toolbar-actions">
-    <a class="language-toggle" href="{{ page.translation_url | relative_url }}" hreflang="{{ page.translation_lang }}" lang="{{ page.translation_lang }}" aria-label="{{ ui.switch_aria }}">{{ ui.switch_label }}</a>
     <button id="navigation-toggle" class="navigation-toggle" type="button" aria-controls="site-sidebar" aria-expanded="false" aria-label="{{ ui.expand_nav }}" data-open-label="{{ ui.expand_nav }}" data-close-label="{{ ui.close_nav }}">
       <span class="menu-icon" aria-hidden="true"></span>
     </button>

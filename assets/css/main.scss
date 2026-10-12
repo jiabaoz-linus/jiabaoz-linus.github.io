@@ -250,7 +250,7 @@ body {
     top: 0;
     left: 0;
     z-index: 40;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: flex-end;
     width: var(--sidebar-width);
@@ -261,26 +261,6 @@ body {
 }
 .site-brand, .navigation-toggle { display: none; }
 .toolbar-actions { display: flex; align-items: center; gap: 12px; }
-.language-toggle {
-    display: inline-flex;
-    flex-shrink: 0;
-    align-items: center;
-    justify-content: center;
-    min-height: 36px;
-    padding: .3rem .7rem;
-    border: 1px solid #cedbea;
-    border-radius: 6px;
-    color: #163d63;
-    background: #f7faff;
-    font-size: .9em;
-    white-space: nowrap;
-}
-
-.language-toggle:hover, .language-toggle:focus-visible {
-    color: #1648a0;
-    border-color: #1648a0;
-    background: #edf4ff;
-}
 .site-sidebar {
     position: fixed;
     top: 0;
@@ -288,7 +268,7 @@ body {
     left: 0;
     z-index: 30;
     width: var(--sidebar-width);
-    padding: 66px 24px 28px;
+    padding: 38px 24px 28px;
     overflow-y: auto;
     overscroll-behavior: contain;
     background: #f8fafc;
@@ -361,7 +341,7 @@ body {
     #main { padding: 38px 32px 50px; }
 }
 @media (max-width: 900px) {
-    .site-toolbar { width: 100%; padding: 0 20px; justify-content: space-between; border-right: 0; border-bottom: 1px solid #e2e8f0; }
+    .site-toolbar { display: flex; width: 100%; padding: 0 20px; justify-content: space-between; border-right: 0; border-bottom: 1px solid #e2e8f0; }
     .site-brand { display: block; color: #1648a0; font-size: 18px; font-weight: 600; text-decoration: none; }
     .navigation-toggle { display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; padding: 8px; border: 1px solid #cedbea; border-radius: 6px; background: transparent; color: #163d63; cursor: pointer; }
     .menu-icon, .menu-icon:before, .menu-icon:after { display: block; width: 18px; height: 2px; background: currentColor; }

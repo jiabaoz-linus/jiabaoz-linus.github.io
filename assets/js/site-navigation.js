@@ -7,7 +7,8 @@
   if (!sidebar || !toggle || !backdrop) return;
 
   var mobile = window.matchMedia('(max-width: 900px)');
-  var links = Array.from(sidebar.querySelectorAll('.section-nav a'));
+  // PDF and external links do not represent sections in the current page.
+  var links = Array.from(sidebar.querySelectorAll('.section-nav a[href^="#"]'));
   var sections = links.map(function (link) {
     return document.getElementById(link.hash.slice(1));
   });

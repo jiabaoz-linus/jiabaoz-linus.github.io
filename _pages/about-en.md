@@ -1,8 +1,6 @@
 ---
 permalink: /
 lang: en
-translation_url: /zh/
-translation_lang: zh-CN
 title: "Jiabao ZHAI"
 description: "Jiabao Zhai, a Ph.D. student in Sustainable Energy and Environment at HKUST (Guangzhou), working on power system reliability and resilience, smart grids, fault diagnosis, and AI for energy."
 author_profile: true
@@ -10,6 +8,7 @@ redirect_from:
   - /about/
   - /about.html
   - /en/
+  - /zh/
 ---
 
 <span class="anchor" id="about-me"></span>
@@ -56,15 +55,14 @@ My research focuses on the reliable operation of energy systems. I combine relia
 
 ## Honors and Awards
 
-- **2025** | National Scholarship for Master's Students
-- **2025** | Second Prize, Science and Technology Achievement Award (Science and Technology Progress), Henan Provincial Department of Education; major contributor<br>
-  Awarded work: hydraulic system health management and engineering applications integrating importance measures and digital twin technology
-- **2025** | National Second Prize, 4th China Graduate Engineering Management Case Competition
-- **2025** | Provincial Second Prize, China International College Students' Innovation Competition
-- **2025** | Provincial Second Prize, National College Students' Statistical Modeling Competition
-- **2023 - 2025** | Graduate Academic Scholarship, Henan Provincial Department of Education
-- **2021 - 2023** | Outstanding Undergraduate Scholarship, Zhengzhou University
-- **2021** | Provincial First Prize, China Undergraduate Mathematical Contest in Modeling
+- **2025** | <span lang="zh-CN">硕士研究生国家奖学金</span>
+- **2025** | <span lang="zh-CN">河南省教育厅科技成果二等奖（科技进步类），主要完成人</span>
+- **2025** | <span lang="zh-CN">第四届中国研究生工程管理案例大赛国家级二等奖</span>
+- **2025** | <span lang="zh-CN">中国国际大学生创新大赛省级二等奖</span>
+- **2025** | <span lang="zh-CN">全国大学生统计建模竞赛省级二等奖</span>
+- **2023 ~ 2025** | <span lang="zh-CN">河南省教育厅研究生学业奖学金</span>
+- **2021 ~ 2023** | <span lang="zh-CN">郑州大学优秀本科生奖学金</span>
+- **2021** | <span lang="zh-CN">“高教社杯”全国大学生数学建模竞赛省级一等奖</span>
 
 <span class="anchor" id="skills"></span>
 

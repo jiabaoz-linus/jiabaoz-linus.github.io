@@ -13,12 +13,13 @@
   <nav class="section-nav" aria-label="{{ ui.nav_label }}">
     <ul>
       {% for link in site.data.navigation[page.lang] %}
-        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        {% assign first_character = link.url | slice: 0, 1 %}
+        <li><a href="{% if first_character == '#' or link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}"{% if link.new_tab %} target="_blank" rel="noopener noreferrer" aria-label="{{ link.title }} (opens in a new tab)"{% endif %}>{{ link.title }}{% if link.new_tab %} <span aria-hidden="true">↗</span>{% endif %}</a></li>
       {% endfor %}
     </ul>
   </nav>
   <footer class="site-sidebar__footer">
-    <div>© {{ site.time | date: '%Y' }} {% if page.lang == 'en' %}{{ site.author.name_en }}{% else %}{{ site.author.name }}{% endif %}</div>
+    <div>© {{ site.time | date: '%Y' }} {{ site.author.name }}</div>
     <div>{{ ui.footer_before }} <a href="https://github.com/RayeRen/acad-homepage.github.io">AcadHomepage</a> {{ ui.footer_after }}</div>
   </footer>
 </aside>

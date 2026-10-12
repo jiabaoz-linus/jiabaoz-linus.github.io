@@ -1,46 +1,20 @@
 en:
-  html_lang: "en"
-  locale: "en_US"
-  home_name: "Jiabao ZHAI"
-  homepage_label: "Academic Homepage"
-  nav_label: "Main navigation"
-  expand_nav: "Open navigation"
-  close_nav: "Close navigation"
-  switch_label: "中文"
-  switch_aria: "Switch to Chinese"
-  footer_before: "Powered by"
-  footer_after: ""
-  paper_label: "Paper / DOI"
-  code_label: "Code"
-  email_label: "Email"
-  education_label: "Education"
-  advisor_label: "Advisor:"
-  host_label: "Host:"
-  topic_label: "Research:"
-  visitors_label: "Visitors"
-  visitors_alt: "Visitor countries and pageviews"
-  visitors_note: "Country/region totals based on approximate IP location."
-  visitors_details: "View visitor statistics"
-zh:
-  html_lang: "zh-CN"
-  locale: "zh_CN"
-  home_name: "翟嘉宝"
-  homepage_label: "个人主页"
-  nav_label: "主导航"
-  expand_nav: "展开导航"
-  close_nav: "关闭导航"
-  switch_label: "English"
-  switch_aria: "Switch to English"
-  footer_before: "基于"
-  footer_after: "模板"
-  paper_label: "论文 / DOI"
-  code_label: "代码"
-  email_label: "邮箱"
-  education_label: "教育背景"
-  advisor_label: "导师："
-  host_label: "合作导师："
-  topic_label: "研究主题："
-  visitors_label: "访客统计"
-  visitors_alt: "访客国家或地区与访问量统计"
-  visitors_note: "按 IP 的大致位置统计访客国家或地区。"
-  visitors_details: "查看访客统计"
+  html_lang: en
+  locale: en_US
+  home_name: Jiabao ZHAI
+  homepage_label: Academic Homepage
+  nav_label: Main navigation
+  expand_nav: Open navigation
+  close_nav: Close navigation
+  footer_before: Powered by
+  footer_after: ''
+  paper_label: Paper / DOI
+  code_label: Code
+  email_label: Email
+  education_label: Education
+  advisor_label: 'Advisor:'
+  topic_label: 'Research:'
+  visitors_label: Visitors
+  visitors_alt: Visitor countries and pageviews
+  visitors_note: Country/region totals based on approximate IP location.
+  visitors_details: View visitor statistics

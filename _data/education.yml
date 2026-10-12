@@ -1,89 +1,39 @@
-# Education and visits are shared by both pages. Keep both language fields updated.
+# Education and academic visits. Dates use YYYY.MM ~ YYYY.MM.
 - entries:
-    - dates:
-        en: "Aug. 2026 – Present"
-        zh: "2026.08 – 至今"
-      qualification:
-        en: "Ph.D. student in Sustainable Energy and Environment"
-        zh: "可持续能源与环境 · 博士研究生"
-      school:
-        en: "HKUST (Guangzhou)"
-        zh: "香港科技大学（广州）"
-      school_url: "https://www.hkust-gz.edu.cn/"
-      logo: "/images/HKUST(GZ)_Logo.png"
-      advisor:
-        en: "Prof. Xiangyu Li"
-        zh: "李翔宇教授"
-      advisor_url: "https://xiangyu5262985.github.io/"
-    - dates:
-        en: "Sept. 2023 – June 2026"
-        zh: "2023.09 – 2026.06"
-      qualification:
-        en: "Master's degree in Management Science and Engineering"
-        zh: "管理科学与工程 · 硕士"
-      school:
-        en: "Zhengzhou University"
-        zh: "郑州大学"
-      school_url: "https://www.zzu.edu.cn/"
-      logo: "/images/ZZU_Logo.png"
-      advisor:
-        en: "Prof. Hongyan Dui"
-        zh: "兑红炎教授"
-      advisor_url: "https://www7.zzu.edu.cn/glxy/info/1142/4169.htm"
-    - dates:
-        en: "Sept. 2019 – June 2023"
-        zh: "2019.09 – 2023.06"
-      qualification:
-        en: "Bachelor's degree in Economic Statistics"
-        zh: "经济统计学 · 学士"
-      school:
-        en: "Zhengzhou University"
-        zh: "郑州大学"
-      school_url: "https://www.zzu.edu.cn/"
-      logo: "/images/ZZU_Logo.png"
-      advisor:
-        en: "Prof. Yanan Hu"
-        zh: "胡亚南教授"
-      advisor_url: "https://www5.zzu.edu.cn/sxy/info/1322/8101.htm"
-- title:
-    en: "Short-Term Academic Visits"
-    zh: "短期交流"
+  - dates: 2026.08 ~ Present
+    qualification: Ph.D. student in Sustainable Energy and Environment
+    school: HKUST (Guangzhou)
+    school_url: https://www.hkust-gz.edu.cn/
+    logo: /images/HKUST(GZ)_Logo.png
+    advisor: Prof. Xiangyu Li
+    advisor_url: https://xiangyu5262985.github.io/
+  - dates: 2023.09 ~ 2026.06
+    qualification: Master's degree in Management Science and Engineering
+    school: Zhengzhou University
+    school_url: https://www.zzu.edu.cn/
+    logo: /images/ZZU_Logo.png
+    advisor: Prof. Hongyan Dui
+    advisor_url: https://www7.zzu.edu.cn/glxy/info/1142/4169.htm
+  - dates: 2019.09 ~ 2023.06
+    qualification: Bachelor's degree in Economic Statistics
+    school: Zhengzhou University
+    school_url: https://www.zzu.edu.cn/
+    logo: /images/ZZU_Logo.png
+    advisor: Prof. Yanan Hu
+    advisor_url: https://www5.zzu.edu.cn/sxy/info/1322/8101.htm
+- title: Short-Term Academic Visits
   entries:
-    - dates:
-        en: "June 2025 – Aug. 2025"
-        zh: "2025.06 – 2025.08"
-      qualification:
-        en: "Academic visit"
-        zh: "学术交流"
-      school:
-        en: "The Chinese University of Hong Kong"
-        zh: "香港中文大学"
-      school_url: "https://www.cuhk.edu.hk/"
-      logo: "/images/CUHK_Logo.png"
-      department:
-        en: "Department of Mechanical and Automation Engineering"
-        zh: "机械与自动化学院"
-      host:
-        en: "Prof. Chun Chen"
-        zh: "陈淳教授"
-      host_url: "https://www4.mae.cuhk.edu.hk/peoples/chen-chun/"
-      topic:
-        en: "Engineering innovation and fluid simulation for sustainable energy systems"
-        zh: "可持续能源系统中的工程创新与流体仿真分析"
-    - dates:
-        en: "June 2023 – July 2023"
-        zh: "2023.06 – 2023.07"
-      qualification:
-        en: "Academic visit"
-        zh: "学术交流"
-      school:
-        en: "National University of Defense Technology"
-        zh: "国防科技大学"
-      school_url: "https://www.nudt.edu.cn/"
-      logo: "/images/NUDT_Logo.png"
-      department:
-        en: "College of Intelligence Science and Technology"
-        zh: "智能科学学院"
-      topic:
-        en: "Intelligent perception and autonomous control using deep reinforcement learning"
-        zh: "智能感知与基于深度强化学习的自主控制"
+  - dates: 2025.06 ~ 2025.08
+    qualification: Academic visit
+    school: The Chinese University of Hong Kong
+    school_url: https://www.cuhk.edu.hk/
+    logo: /images/CUHK_Logo.png
+    department: Department of Mechanical and Automation Engineering
+    topic: Engineering innovation and fluid simulation for sustainable energy systems
+  - dates: 2023.06 ~ 2023.07
+    qualification: Academic visit
+    school: National University of Defense Technology
+    school_url: https://www.nudt.edu.cn/
+    logo: /images/NUDT_Logo.png
+    department: College of Intelligence Science and Technology
+    topic: Intelligent perception and autonomous control using deep reinforcement learning
