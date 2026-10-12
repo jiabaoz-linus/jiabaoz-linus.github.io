@@ -12,7 +12,7 @@ redirect_from:
 
 # 你好，我是翟嘉宝
 
-我目前在**香港科技大学（广州）**攻读可持续能源与环境博士学位，导师为[李翔宇教授](https://xiangyu5262985.github.io/)。此前，我在**郑州大学**获得管理科学与工程硕士学位和统计学学士学位，硕士导师为[兑红炎教授](https://www7.zzu.edu.cn/glxy/info/1142/4169.htm)，本科导师为[胡亚南教授](https://www5.zzu.edu.cn/sxy/info/1322/8101.htm)。
+我目前在**香港科技大学（广州）**攻读可持续能源与环境博士学位，导师为[李翔宇教授](https://xiangyu5262985.github.io/)。此前，我在**郑州大学**获得管理科学与工程硕士学位和统计学学士学位，导师分别为为[兑红炎教授](https://www7.zzu.edu.cn/glxy/info/1142/4169.htm)和[胡亚南教授](https://www5.zzu.edu.cn/sxy/info/1322/8101.htm)。
 
 我的研究围绕能源系统的可靠运行，结合可靠性工程、复杂网络与人工智能方法，关注故障诊断、韧性评估及维护优化。
 
@@ -29,20 +29,19 @@ redirect_from:
 
 ## 教育背景
 
-- **2026.08 - 至今｜香港科技大学（广州）**<br>
+- **2026.08 - 至今｜香港科技大学（广州）** <img class="education-logo" src="{{ '/images/HKUST(GZ)_Logo.png' | relative_url }}" alt="香港科技大学（广州）校徽" loading="lazy"><br>
   可持续能源与环境 · 博士研究生｜导师：李翔宇教授
-- **2023.09 - 2026.06｜郑州大学**<br>
-  管理科学与工程 · 硕士｜GPA：4.07/4.3｜导师：兑红炎教授<br>
-  硕士论文：数据驱动下电力-通信耦合网络故障诊断与防御策略
-- **2019.09 - 2023.06｜郑州大学**<br>
-  统计学 · 学士｜导师：胡亚南教授
+- **2023.09 - 2026.06｜郑州大学** <img class="education-logo" src="{{ '/images/ZZU_Logo.png' | relative_url }}" alt="郑州大学校徽" loading="lazy"><br>
+  管理科学与工程 · 硕士｜导师：兑红炎教授<br>
+- **2019.09 - 2023.06｜郑州大学** <img class="education-logo" src="{{ '/images/ZZU_Logo.png' | relative_url }}" alt="郑州大学校徽" loading="lazy"><br>
+  经济统计学 · 学士｜导师：胡亚南教授
 
 ### 短期交流
 
-- **2025.06 - 2025.08｜香港中文大学**<br>
+- **2025.06 - 2025.08｜香港中文大学** <img class="education-logo" src="{{ '/images/CUHK_Logo.png' | relative_url }}" alt="香港中文大学校徽" loading="lazy"><br>
   机械与自动化学院｜合作导师：[陈淳教授](https://www4.mae.cuhk.edu.hk/peoples/chen-chun/)<br>
   研究主题：可持续能源系统中的工程创新与流体仿真分析
-- **2023.06 - 2023.07｜国防科技大学**<br>
+- **2023.06 - 2023.07｜国防科技大学** <img class="education-logo" src="{{ '/images/NUDT_Logo.png' | relative_url }}" alt="国防科技大学校徽" loading="lazy"><br>
   智能科学学院｜研究主题：智能感知与基于深度强化学习的自主控制
 
 <span class="anchor" id="publications"></span>
@@ -62,14 +61,6 @@ redirect_from:
 - **一种语义增强因果图驱动的低空互联5G基站故障识别方法**<br>
   编号：CN2025120293643
 
-### 学术专著整理
-
-参与整理导师学术专著：
-
-- H. Dui, S. Wu. *Importance-Informed Reliability Engineering*. Springer Nature Switzerland, 2024.
-- 兑红炎、杨咏：《基于重要度的基础设施韧性研究》，中国社会科学出版社，2024。
-- 陈志伟、兑红炎、洪东跑、马晓东：《无人装备可靠性系统工程》，国防工业出版社，2025。
-
 <span class="anchor" id="honors"></span>
 
 ## 荣誉奖项
@@ -80,16 +71,14 @@ redirect_from:
 - **2025**｜第四届中国研究生工程管理案例大赛国家级二等奖
 - **2025**｜中国国际大学生创新大赛省级二等奖
 - **2025**｜全国大学生统计建模竞赛省级二等奖
-- **2025**｜郑州大学优秀研究生党务工作者（所在党支部获评校先进研究生党支部）
 - **2023 - 2025**｜河南省教育厅研究生学业奖学金
 - **2021 - 2023**｜郑州大学优秀本科生奖学金
 - **2021**｜“高教社杯”全国大学生数学建模竞赛省级一等奖
 
 <span class="anchor" id="skills"></span>
 
-## 技术能力
+## 技术栈
 
-- **编程与数据分析**：Python（PyTorch、TensorFlow、scikit-learn、NetworkX）、MATLAB/Simulink、R、SQL。
-- **仿真与建模**：MATLAB/Simulink 电力系统工具箱、CFD 流体仿真。
-- **研究与开发工具**：LaTeX、Linux、ROS、Git、Power BI。
-- **语言**：IELTS 6.5（6.0）、CET-6 565。
+- **编程与数据分析**：Python、MATLAB/Simulink、R、SQL
+- **仿真与建模**：MATLAB/Simulink 电力系统工具箱、CFD流体仿真
+- **研究与开发工具**：LaTeX、Linux、ROS、Git、Power BI

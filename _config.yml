@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "翟嘉宝 Jiabao Zhai"
+title                    : "翟嘉宝 Jiabao ZHAI"
 description              : "电力系统可靠性与韧性 · 智能电网 · AI for Energy"
 url                      : "https://icetaeyeon.github.io"
 baseurl                  : "/jiabaoz.github.io"
@@ -24,8 +24,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "翟嘉宝 Jiabao Zhai"
-  avatar           : "/images/jiabao-monogram.svg"
+  name             : "翟嘉宝 Jiabao ZHAI"
+  avatar           : "/images/西施惠.jpg"
   bio              : "香港科技大学（广州） · 博士生"
   location         : "中国 · 广州"
   employer         : #"Hefei General Machinery Research Institute"
