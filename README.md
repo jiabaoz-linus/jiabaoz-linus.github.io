@@ -1,4 +1,15 @@
 
+## 我的主页维护入口
+
+这份仓库已按翟嘉宝的简历更新。日常维护请先阅读 [主页修改指南](docs/主页修改指南.md)。
+
+- 个人简介、教育、专利和荣誉：`_pages/about.md`
+- 新增或修改已发表论文：`_data/publications.yml`
+- 姓名、邮箱、头像与学术主页链接：`_config.yml`
+- 顶部菜单：`_data/navigation.yml`
+
+以下保留原模板说明与致谢。
+
 <h1 align="center">
 AcadHomepage
 </h1>

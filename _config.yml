@@ -6,30 +6,33 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "唐健"
-description              : "电磁无损检测"
-repository               : "tangjyan/tangjyan.github.io"
+title                    : "翟嘉宝 Jiabao Zhai"
+description              : "电力系统可靠性与韧性 · 智能电网 · AI for Energy"
+url                      : "https://icetaeyeon.github.io"
+baseurl                  : "/jiabaoz.github.io"
+locale                   : "zh_CN"
+repository               : "IceTaeyeon/jiabaoz.github.io"
 google_scholar_stats_use_cdn : false
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
 # SEO Related
-google_site_verification :  fQZQD0EwLaSOrp3EbALt2rjxHEY9pUvWuh1fS96xgNk # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification   : 56D1B3DBCF345410DA9431AFE01788E7 # get bing_site_verification from https://www.bing.com/webmasters/about
+google_site_verification :  # Fill in your own verification code if needed.
+bing_site_verification   :
 baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
 # Site Author
 author:
-  name             : "唐健"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "华中科技大学"
-  location         : "湖北 武汉"
+  name             : "翟嘉宝 Jiabao Zhai"
+  avatar           : "/images/jiabao-monogram.svg"
+  bio              : "香港科技大学（广州） · 博士生"
+  location         : "中国 · 广州"
   employer         : #"Hefei General Machinery Research Institute"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=WMkMTb4AAAAJ"
-  email            : "tangj@hust.edu.cn"
-  researchgate     : "https://www.researchgate.net/profile/Jian-Tang-53"
+  googlescholar    : "https://scholar.google.com/citations?user=OcqZBwYAAAAJ"
+  email            : "jzhai585@connect.hkust-gz.edu.cn"
+  researchgate     : "https://www.researchgate.net/profile/Jiabao-Zhai"
   uri              : 
   bitbucket        :
   codepen          :
@@ -37,7 +40,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "tangjyan"
+  github           : "IceTaeyeon"
   google_plus      :
   keybase          :
   instagram        :
@@ -45,7 +48,7 @@ author:
   lastfm           :
   linkedin         : # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : "https://orcid.org/0000-0001-9658-209X"
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
