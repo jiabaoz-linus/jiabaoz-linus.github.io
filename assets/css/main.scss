@@ -179,6 +179,42 @@ h1:before, .anchor:before {
     overflow-wrap: break-word;
 }
 
+/* One shared year column keeps every award title aligned. */
+.page__content .honors-list {
+    margin: 1em 0;
+    padding: 0;
+    list-style: none;
+}
+.page__content .honor-item {
+    display: grid;
+    grid-template-columns: 128px minmax(0, 1fr);
+    column-gap: 24px;
+    align-items: baseline;
+    margin: 0;
+    padding: 9px 0;
+    line-height: 1.8;
+    text-align: left;
+}
+.honor-year {
+    color: #64748b;
+    font-size: .9em;
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+.honor-title {
+    min-width: 0;
+    color: #334155;
+    overflow-wrap: break-word;
+}
+@media (max-width: 600px) {
+    .page__content .honor-item {
+        grid-template-columns: minmax(0, 1fr);
+        row-gap: 2px;
+        padding: 10px 0;
+    }
+}
+
 /* Four aligned columns: dates, qualification, institution/advisor, logo. */
 .education-list { margin: 1em 0 1.3em; }
 .education-row {

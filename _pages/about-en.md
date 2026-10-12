@@ -55,14 +55,7 @@ My research focuses on the reliable operation of energy systems. I combine relia
 
 ## Honors and Awards
 
-- **2025** | <span lang="zh-CN">硕士研究生国家奖学金</span>
-- **2025** | <span lang="zh-CN">河南省教育厅科技成果二等奖（科技进步类），主要完成人</span>
-- **2025** | <span lang="zh-CN">第四届中国研究生工程管理案例大赛国家级二等奖</span>
-- **2025** | <span lang="zh-CN">中国国际大学生创新大赛省级二等奖</span>
-- **2025** | <span lang="zh-CN">全国大学生统计建模竞赛省级二等奖</span>
-- **2023 ~ 2025** | <span lang="zh-CN">河南省教育厅研究生学业奖学金</span>
-- **2021 ~ 2023** | <span lang="zh-CN">郑州大学优秀本科生奖学金</span>
-- **2021** | <span lang="zh-CN">“高教社杯”全国大学生数学建模竞赛省级一等奖</span>
+{% include honors.html %}
 
 <span class="anchor" id="skills"></span>
 

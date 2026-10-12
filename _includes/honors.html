@@ -1,0 +1,8 @@
+<ul class="honors-list">
+  {% for award in site.data.honors %}
+    <li class="honor-item">
+      <span class="honor-year">{{ award.year | escape }}</span>
+      <span class="honor-title" lang="zh-CN">{{ award.title | escape }}</span>
+    </li>
+  {% endfor %}
+</ul>

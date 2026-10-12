@@ -2,7 +2,8 @@
 
 这份仓库已按翟嘉宝的简历更新。日常维护请先阅读 [主页修改指南](docs/主页修改指南.md)。
 
-- 英文首页正文（国内奖项保留中文原名）：`_pages/about-en.md`
+- 英文首页正文：`_pages/about-en.md`
+- 荣誉奖项（保留中文原名）：`_data/honors.yml`
 - 已发表论文：`_data/publications.yml`
 - 教育背景和短期交流：`_data/education.yml`
 - 导航中的 CV：`files/Jiabao_CV.pdf`，更新时用新 PDF 覆盖此文件即可
