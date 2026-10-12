@@ -8,11 +8,20 @@
 # Site Settings
 title                    : "翟嘉宝 Jiabao ZHAI"
 description              : "电力系统可靠性与韧性 · 智能电网 · AI for Energy"
+description_en           : "Power System Reliability & Resilience · Smart Grids · AI for Energy"
 url                      : "https://icetaeyeon.github.io"
 baseurl                  : "/jiabaoz.github.io"
-locale                   : "zh_CN"
+lang                     : "en"
+locale                   : "en_US"
 repository               : "IceTaeyeon/jiabaoz.github.io"
 google_scholar_stats_use_cdn : false
+
+# Both language pages share this independent visitor counter.
+# Only public embed URLs belong here; keep the management password outside Git.
+visitor_counter:
+  enabled: true
+  image_url: "https://flagcounter.me/api/counters/kJh/image"
+  stats_url: "https://flagcounter.me/details/kJh"
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -25,9 +34,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "翟嘉宝 Jiabao ZHAI"
+  name_en          : "Jiabao ZHAI"
   avatar           : "/images/西施惠.jpg"
   bio              : "香港科技大学（广州） · 博士生"
+  bio_en           : "Ph.D. Student · HKUST (Guangzhou)"
   location         : "中国 · 广州"
+  location_en      : "Guangzhou, China"
   employer         : #"Hefei General Machinery Research Institute"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=OcqZBwYAAAAJ"

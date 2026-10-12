@@ -1,0 +1,22 @@
+{% assign ui = site.data.i18n[page.lang] %}
+{% for group in site.data.education %}
+  {% if group.title %}<h3>{{ group.title[page.lang] }}</h3>{% endif %}
+  <div class="education-list" role="list" aria-label="{{ group.title[page.lang] | default: ui.education_label }}">
+    {% for entry in group.entries %}
+      <div class="education-row" role="listitem">
+        <div class="education-dates">{{ entry.dates[page.lang] }}</div>
+        <div class="education-qualification">{{ entry.qualification[page.lang] }}</div>
+        <div class="education-school">
+          <a class="education-school-name" href="{{ entry.school_url }}">{{ entry.school[page.lang] }}</a>
+          {% if entry.department %}<div class="education-detail">{{ entry.department[page.lang] }}</div>{% endif %}
+          {% if entry.advisor %}<div class="education-detail">{{ ui.advisor_label }} <a href="{{ entry.advisor_url }}">{{ entry.advisor[page.lang] }}</a></div>{% endif %}
+          {% if entry.host %}<div class="education-detail">{{ ui.host_label }} <a href="{{ entry.host_url }}">{{ entry.host[page.lang] }}</a></div>{% endif %}
+          {% if entry.topic %}<div class="education-detail education-topic">{{ ui.topic_label }} {{ entry.topic[page.lang] }}</div>{% endif %}
+        </div>
+        <a class="education-logo-link" href="{{ entry.school_url }}" aria-label="{{ entry.school[page.lang] }}">
+          <img class="education-logo" src="{{ entry.logo | relative_url }}" alt="{{ entry.school[page.lang] }}" loading="lazy">
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+{% endfor %}

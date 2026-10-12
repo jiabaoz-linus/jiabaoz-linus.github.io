@@ -1,0 +1,10 @@
+{% assign ui = site.data.i18n[page.lang] %}
+{% if site.visitor_counter.enabled and site.visitor_counter.image_url and site.visitor_counter.stats_url %}
+  <section class="visitor-counter" aria-labelledby="visitor-counter-title">
+    <h2 id="visitor-counter-title">{{ ui.visitors_label }}</h2>
+    <a class="visitor-counter-image-link" href="{{ site.visitor_counter.stats_url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ ui.visitors_details }}">
+      <img class="visitor-counter-image" src="{{ site.visitor_counter.image_url }}" alt="{{ ui.visitors_alt }}" decoding="async" referrerpolicy="no-referrer">
+    </a>
+    <p class="visitor-counter-note">{{ ui.visitors_note }} <a href="{{ site.visitor_counter.stats_url }}" target="_blank" rel="noopener noreferrer">{{ ui.visitors_details }} ↗</a></p>
+  </section>
+{% endif %}

@@ -3,10 +3,16 @@
 
 这份仓库已按翟嘉宝的简历更新。日常维护请先阅读 [主页修改指南](docs/主页修改指南.md)。
 
-- 个人简介、教育、专利和荣誉：`_pages/about.md`
+- 默认英文首页：`_pages/about-en.md`
+- 中文简介、教育、专利和荣誉：`_pages/about.md`（地址为 `/zh/`）
 - 新增或修改已发表论文：`_data/publications.yml`
+- 中英文教育背景和短期交流：`_data/education.yml`
+- 底部访客统计：`_config.yml` 中的 `visitor_counter`
 - 姓名、邮箱、头像与学术主页链接：`_config.yml`
-- 顶部菜单：`_data/navigation.yml`
+- 左侧章节菜单：`_data/navigation.yml`
+- 中英文按钮、页脚等界面文字：`_data/i18n.yml`
+
+桌面端采用固定左侧导航，语言按钮位于侧栏顶部；手机端通过顶部菜单按钮展开侧栏，语言按钮始终可见。切换中英文会保留当前章节。论文采用每篇独占一行的卡片，两种语言共用论文数据。
 
 以下保留原模板说明与致谢。
 

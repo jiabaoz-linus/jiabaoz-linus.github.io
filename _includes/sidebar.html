@@ -1,14 +1,24 @@
-{% if page.author_profile or layout.author_profile or page.sidebar %}
-  <div class="sidebar sticky">
+{% assign ui = site.data.i18n[page.lang] %}
+<aside id="site-sidebar" class="site-sidebar" aria-label="{{ ui.homepage_label }}">
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
   {% if page.sidebar %}
     {% for s in page.sidebar %}
       {% if s.image %}
-        <img src= "{{ s.image }}" alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
+        <img src="{{ s.image | relative_url }}" alt="{{ s.image_alt }}">
       {% endif %}
       {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
       {% if s.text %}{{ s.text | markdownify }}{% endif %}
     {% endfor %}
   {% endif %}
-  </div>
-{% endif %}
+  <nav class="section-nav" aria-label="{{ ui.nav_label }}">
+    <ul>
+      {% for link in site.data.navigation[page.lang] %}
+        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+  <footer class="site-sidebar__footer">
+    <div>© {{ site.time | date: '%Y' }} {% if page.lang == 'en' %}{{ site.author.name_en }}{% else %}{{ site.author.name }}{% endif %}</div>
+    <div>{{ ui.footer_before }} <a href="https://github.com/RayeRen/acad-homepage.github.io">AcadHomepage</a> {{ ui.footer_after }}</div>
+  </footer>
+</aside>

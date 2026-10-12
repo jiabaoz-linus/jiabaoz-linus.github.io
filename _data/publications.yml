@@ -1,6 +1,7 @@
 # 只收录已发表论文。新增时复制一条记录，放在适当年份的位置。
 # authors 中的 "J. Zhai" 会在网页中自动加粗；doi 只填写 DOI 编号。
 # pdf 和 code 为可选字段；没有文件或代码时省略即可。
+# summary 为中文简介，summary_en 为英文简介；两种语言共用其余字段。
 
 - title: "CausaLM-Net: An LLM-guided causal graph and state-space learning framework for fault diagnosis in cloud native 5G base stations"
   authors: ["H. Dui", "J. Zhai", "W. Xia", "L. Xing", "H. Shao", "N. Wang"]
@@ -9,6 +10,7 @@
   volume: "317"
   doi: "10.1016/j.eswa.2026.131961"
   summary: "提出 LLM 引导的因果图与状态空间学习框架，用于电力通信基础设施故障诊断。"
+  summary_en: "An LLM-guided causal graph and state-space learning framework for fault diagnosis in power communication infrastructure."
 
 - title: "Attack strategies and reliability analysis of wireless mesh networks considering cascading failures"
   authors: ["H. Dui", "J. Zhai", "X. Fu"]
@@ -17,6 +19,7 @@
   volume: "257"
   doi: "10.1016/j.ress.2025.110832"
   summary: "面向电力通信网络，研究考虑级联失效的顺序攻击策略与可靠性分析方法。"
+  summary_en: "Sequential attack strategies and reliability analysis for power communication networks subject to cascading failures."
 
 - title: "CHART: Intelligent Sensing-based Fault Diagnosis Method for EV Charging Infrastructure"
   authors: ["H. Dui", "J. Zhai", "X. Dong", "M. Zhai"]
@@ -26,6 +29,7 @@
   issue: "20"
   doi: "10.1109/JSEN.2025.3602689"
   summary: "提出面向电动汽车充电设施的智能传感故障诊断框架。"
+  summary_en: "An intelligent sensing-based framework for fault diagnosis in electric vehicle charging infrastructure."
 
 - title: "Maintenance Strategy Optimization for Smart Grid Sensor Networks Based on Dynamic Resilience Importance Using LSTM"
   authors: ["H. Dui", "J. Wang", "N. Xue", "J. Zhai", "X. Dong"]
@@ -35,3 +39,4 @@
   issue: "23"
   doi: "10.1109/JSEN.2025.3619976"
   summary: "基于 LSTM 与动态韧性重要度，优化智能电网传感器网络的维护策略。"
+  summary_en: "Maintenance optimization for smart grid sensor networks using LSTM and dynamic resilience importance."

@@ -1,6 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title">
-  <title id="title">Jiabao Zhai initials</title>
-  <rect width="240" height="240" rx="120" fill="#163d63"/>
-  <circle cx="120" cy="120" r="105" fill="none" stroke="#b6d3e8" stroke-width="1.5"/>
-  <text x="120" y="145" text-anchor="middle" font-family="Georgia,serif" font-size="82" fill="#fff">JZ</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Jiabao Zhai — Electrical Energy and Reliability</title>
+  <desc id="desc">A gold Z-shaped lightning bolt within a protective shield, connected to turquoise circuit terminals on a deep blue circular field.</desc>
+  <defs>
+    <radialGradient id="field" cx="0" cy="0" r="1" gradientTransform="translate(80 56) rotate(55) scale(238)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#245879"/>
+      <stop offset="1" stop-color="#102D49"/>
+    </radialGradient>
+    <linearGradient id="energy" x1="112" y1="82" x2="146" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE49A"/>
+      <stop offset="1" stop-color="#F4B544"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="128" cy="128" r="128" fill="url(#field)"/>
+  <circle cx="128" cy="128" r="115" stroke="#8FC4D4" stroke-opacity=".17" stroke-width="2"/>
+
+  <!-- Circuit terminals: electrical connection and energy distribution. -->
+  <g stroke="#64D7C7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M38 128h17l17-17"/>
+    <path d="M218 128h-17l-17-17"/>
+    <path d="M128 197v20"/>
+  </g>
+  <g fill="#64D7C7">
+    <circle cx="36" cy="128" r="8"/>
+    <circle cx="220" cy="128" r="8"/>
+    <circle cx="128" cy="220" r="7"/>
+  </g>
+
+  <!-- A continuous shield remains clear at favicon size. -->
+  <path d="M128 43 184 67v51c0 36-21 62-56 80-35-18-56-44-56-80V67l56-24Z"
+        fill="#163D5A" fill-opacity=".65" stroke="#EEF7FA" stroke-width="8" stroke-linejoin="round"/>
+
+  <!-- The lightning silhouette also echoes the original Z initial. -->
+  <path d="M113 82h43l-27 34h25l-43 58 9-42H96l35-35h-23l5-15Z"
+        fill="url(#energy)" stroke="#FFD779" stroke-width="2" stroke-linejoin="round"/>
 </svg>

@@ -1,4 +1,19 @@
-main:
+en:
+  - title: "About"
+    url: "#about-me"
+  - title: "Research"
+    url: "#research"
+  - title: "Education"
+    url: "#education"
+  - title: "Publications"
+    url: "#publications"
+  - title: "Patents"
+    url: "#patents"
+  - title: "Honors"
+    url: "#honors"
+  - title: "Skills"
+    url: "#skills"
+zh:
   - title: "简介"
     url: "#about-me"
   - title: "研究方向"

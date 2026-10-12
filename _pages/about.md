@@ -1,18 +1,18 @@
 ---
-permalink: /
-title: "翟嘉宝 Jiabao Zhai"
+permalink: /zh/
+lang: zh
+translation_url: /
+translation_lang: en
+title: "翟嘉宝 Jiabao ZHAI"
 description: "翟嘉宝，香港科技大学（广州）可持续能源与环境博士生。研究电力系统可靠性与韧性、智能电网规划与运行、深度学习故障诊断及 AI for Energy。"
 author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
 ---
 
 <span class="anchor" id="about-me"></span>
 
 # 你好，我是翟嘉宝
 
-我目前在**香港科技大学（广州）**攻读可持续能源与环境博士学位，导师为[李翔宇教授](https://xiangyu5262985.github.io/)。此前，我在**郑州大学**获得管理科学与工程硕士学位和统计学学士学位，导师分别为为[兑红炎教授](https://www7.zzu.edu.cn/glxy/info/1142/4169.htm)和[胡亚南教授](https://www5.zzu.edu.cn/sxy/info/1322/8101.htm)。
+我目前在**香港科技大学（广州）**攻读可持续能源与环境博士学位，导师为[李翔宇教授](https://xiangyu5262985.github.io/)。此前，我在**郑州大学**获得管理科学与工程硕士学位和统计学学士学位，导师分别为[兑红炎教授](https://www7.zzu.edu.cn/glxy/info/1142/4169.htm)和[胡亚南教授](https://www5.zzu.edu.cn/sxy/info/1322/8101.htm)。
 
 我的研究围绕能源系统的可靠运行，结合可靠性工程、复杂网络与人工智能方法，关注故障诊断、韧性评估及维护优化。
 
@@ -29,20 +29,7 @@ redirect_from:
 
 ## 教育背景
 
-- **2026.08 - 至今｜香港科技大学（广州）** <img class="education-logo" src="{{ '/images/HKUST(GZ)_Logo.png' | relative_url }}" alt="香港科技大学（广州）校徽" loading="lazy"><br>
-  可持续能源与环境 · 博士研究生｜导师：李翔宇教授
-- **2023.09 - 2026.06｜郑州大学** <img class="education-logo" src="{{ '/images/ZZU_Logo.png' | relative_url }}" alt="郑州大学校徽" loading="lazy"><br>
-  管理科学与工程 · 硕士｜导师：兑红炎教授<br>
-- **2019.09 - 2023.06｜郑州大学** <img class="education-logo" src="{{ '/images/ZZU_Logo.png' | relative_url }}" alt="郑州大学校徽" loading="lazy"><br>
-  经济统计学 · 学士｜导师：胡亚南教授
-
-### 短期交流
-
-- **2025.06 - 2025.08｜香港中文大学** <img class="education-logo" src="{{ '/images/CUHK_Logo.png' | relative_url }}" alt="香港中文大学校徽" loading="lazy"><br>
-  机械与自动化学院｜合作导师：[陈淳教授](https://www4.mae.cuhk.edu.hk/peoples/chen-chun/)<br>
-  研究主题：可持续能源系统中的工程创新与流体仿真分析
-- **2023.06 - 2023.07｜国防科技大学** <img class="education-logo" src="{{ '/images/NUDT_Logo.png' | relative_url }}" alt="国防科技大学校徽" loading="lazy"><br>
-  智能科学学院｜研究主题：智能感知与基于深度强化学习的自主控制
+{% include education.html %}
 
 <span class="anchor" id="publications"></span>
 
