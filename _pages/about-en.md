@@ -1,8 +1,8 @@
 ---
 permalink: /
 lang: en
-title: "Jiabao ZHAI"
-description: "Jiabao Zhai, a Ph.D. student in Sustainable Energy and Environment at HKUST (Guangzhou), working on power system reliability and resilience, smart grids, fault diagnosis, and AI for energy."
+title: "Jiabao ZHAI (翟嘉宝)"
+description: "Jiabao ZHAI, a Ph.D. student in Sustainable Energy and Environment at HKUST (Guangzhou), working on power system reliability and resilience, smart grids, fault diagnosis, and AI for energy."
 author_profile: true
 redirect_from:
   - /about/
@@ -13,9 +13,9 @@ redirect_from:
 
 <span class="anchor" id="about-me"></span>
 
-# Hi, I'm Jiabao Zhai
+# Hi, I'm Jiabao ZHAI
 
-I am a **Ph.D. student in Sustainable Energy and Environment at the Hong Kong University of Science and Technology (Guangzhou)**, advised by [Prof. Xiangyu Li](https://xiangyu5262985.github.io/). Previously, I received my master's degree in Management Science and Engineering and my bachelor's degree in Statistics from **Zhengzhou University**, advised by [Prof. Hongyan Dui](https://www7.zzu.edu.cn/glxy/info/1142/4169.htm) and [Prof. Yanan Hu](https://www5.zzu.edu.cn/sxy/info/1322/8101.htm), respectively.
+I am a **Ph.D. student in Sustainable Energy and Environment at the Hong Kong University of Science and Technology (Guangzhou)**, advised by [Prof. Xiangyu Li](https://xiangyu5262985.github.io/). Previously, I received my master's degree in Management Science and Engineering and my bachelor's degree in Statistics from **Zhengzhou University**, advised by [Prof. Hongyan Dui](https://scholar.google.com/citations?hl=en&user=N7MzyEQAAAAJ) and [Prof. Yanan Hu](https://www5.zzu.edu.cn/sxy/info/1322/8101.htm), respectively.
 
 My research focuses on the reliable operation of energy systems. I combine reliability engineering, complex networks, and artificial intelligence to study fault diagnosis, resilience assessment, and maintenance optimization.
 

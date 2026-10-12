@@ -1,37 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none" role="img" aria-labelledby="title desc">
-  <title id="title">Jiabao Zhai — Electrical Energy and Reliability</title>
-  <desc id="desc">A gold Z-shaped lightning bolt within a protective shield, connected to turquoise circuit terminals on a deep blue circular field.</desc>
+  <title id="title">西施惠 · Isabelle</title>
+  <desc id="desc">A cheerful cartoon portrait of Isabelle from Animal Crossing, with golden floppy ears, a topknot, red ribbons, rosy cheeks and a brown jacket.</desc>
   <defs>
-    <radialGradient id="field" cx="0" cy="0" r="1" gradientTransform="translate(80 56) rotate(55) scale(238)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#245879"/>
-      <stop offset="1" stop-color="#102D49"/>
-    </radialGradient>
-    <linearGradient id="energy" x1="112" y1="82" x2="146" y2="170" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFE49A"/>
-      <stop offset="1" stop-color="#F4B544"/>
-    </linearGradient>
+    <clipPath id="badge"><circle cx="128" cy="128" r="128"/></clipPath>
   </defs>
+  <g clip-path="url(#badge)">
+    <path fill="#B98274" d="M0 0h256v256H0z"/>
+    <circle cx="128" cy="128" r="120" stroke="#EBC4A0" stroke-opacity=".5" stroke-width="2"/>
 
-  <circle cx="128" cy="128" r="128" fill="url(#field)"/>
-  <circle cx="128" cy="128" r="115" stroke="#8FC4D4" stroke-opacity=".17" stroke-width="2"/>
+    <!-- A small jacket and scalloped collar echo the reference portrait. -->
+    <path d="M69 256c3-27 18-44 42-48h34c24 4 39 21 42 48" fill="#604337"/>
+    <path d="m111 212 17 7 17-7 7 44h-48l7-44Z" fill="#FFF1C3"/>
+    <path d="m110 211-12 12 17 12 13-16 13 16 17-12-12-12" fill="#FFF8DB"/>
+    <path d="m128 221-5 17m5-17 7 17" stroke="#B85643" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="122" cy="240" r="4" fill="#ECAA51"/>
+    <circle cx="136" cy="240" r="4" fill="#ECAA51"/>
+    <path d="m101 231-6 25m60-25 6 25" stroke="#B48D65" stroke-width="2"/>
+    <circle cx="98" cy="242" r="2.8" fill="#DDA865"/>
 
-  <!-- Circuit terminals: electrical connection and energy distribution. -->
-  <g stroke="#64D7C7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M38 128h17l17-17"/>
-    <path d="M218 128h-17l-17-17"/>
-    <path d="M128 197v20"/>
+    <!-- Golden topknot, red ribbon and softly curved headband. -->
+    <path d="M109 72c-12-8-14-24-9-39 5-17 23-25 38-18 20 8 24 36 10 53l-39 4Z" fill="#F4B849" stroke="#D99B40" stroke-width="2.5"/>
+    <path d="M111 31c3-6 8-9 13-10" stroke="#FFE29B" stroke-width="7" stroke-linecap="round"/>
+    <path d="M143 48c8-6 15-1 14 7-1 11-13 19-26 18" fill="#F4B849"/>
+    <path d="M103 78C91 73 85 62 84 53c-1-7-7-8-11-2-7 9-9 24-7 39l37-12Z" fill="#E76558" stroke="#BC5047" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M153 78c12-5 18-16 19-25 1-7 7-8 11-2 7 9 9 24 7 39l-37-12Z" fill="#E76558" stroke="#BC5047" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="m77 62 3 9m99-9-3 9" stroke="#F7977B" stroke-width="4" stroke-linecap="round"/>
+    <path d="M64 101c8-24 32-36 64-36s56 12 64 36" stroke="#514138" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- Drooping ears sit behind the rounded face. -->
+    <path d="M75 89c-23 2-39 22-47 53-7 24-10 53 2 62 9 7 25 3 32-7 8-12 17-48 21-75l-8-33Z" fill="#F0B54C" stroke="#DAA044" stroke-width="3"/>
+    <path d="M181 89c23 2 39 22 47 53 7 24 10 53-2 62-9 7-25 3-32-7-8-12-17-48-21-75l8-33Z" fill="#F0B54C" stroke="#DAA044" stroke-width="3"/>
+    <path d="M45 130c-8 20-12 39-11 53m177-53c8 20 12 39 11 53" stroke="#FFD17B" stroke-width="5" stroke-linecap="round"/>
+
+    <path d="M128 76c-43 0-69 27-70 73-1 43 15 63 41 69 16 4 42 4 58 0 26-6 42-26 41-69-1-46-27-73-70-73Z" fill="#F8D974" stroke="#E1B650" stroke-width="3"/>
+    <path d="M68 119c-7-20 6-38 25-42 13-9 26-8 35-1 10-7 24-7 36 1 20 5 32 23 25 42-4 12-20 13-34 6-12-5-21-13-27-23-6 10-15 18-27 23-14 7-29 6-33-6Z" fill="#FFE797"/>
+    <path d="M77 118c14 5 38-6 51-23 13 17 37 28 51 23" stroke="#F3D17A" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Broad, simple facial features stay readable at small sizes. -->
+    <path d="M83 149q12-13 24-2m42 0q12-11 24 2" stroke="#40382C" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="80" cy="167" rx="10" ry="6" fill="#EFA466"/>
+    <ellipse cx="176" cy="167" rx="10" ry="6" fill="#EFA466"/>
+    <path d="M128 166c-15-6-33 6-39 21-7 18 11 28 39 28s46-10 39-28c-6-15-24-27-39-21Z" fill="#FFF3CF"/>
+    <ellipse cx="128" cy="173" rx="9" ry="5.5" fill="#3C362C"/>
+    <ellipse cx="125" cy="171" rx="3" ry="1.5" fill="#FFF9E8"/>
+    <path d="M104 187q24 15 48 0c-5 17-14 24-24 24s-19-7-24-24Z" fill="#D8796C" stroke="#996657" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M115 203q13-8 26 0c-4 5-8 7-13 7s-9-2-13-7Z" fill="#F3A18C"/>
+    <path d="M121 195q7 2 14 0l-3 4h-8l-3-4Z" fill="#FFF8E1"/>
   </g>
-  <g fill="#64D7C7">
-    <circle cx="36" cy="128" r="8"/>
-    <circle cx="220" cy="128" r="8"/>
-    <circle cx="128" cy="220" r="7"/>
-  </g>
-
-  <!-- A continuous shield remains clear at favicon size. -->
-  <path d="M128 43 184 67v51c0 36-21 62-56 80-35-18-56-44-56-80V67l56-24Z"
-        fill="#163D5A" fill-opacity=".65" stroke="#EEF7FA" stroke-width="8" stroke-linejoin="round"/>
-
-  <!-- The lightning silhouette also echoes the original Z initial. -->
-  <path d="M113 82h43l-27 34h25l-43 58 9-42H96l35-35h-23l5-15Z"
-        fill="url(#energy)" stroke="#FFD779" stroke-width="2" stroke-linejoin="round"/>
 </svg>
