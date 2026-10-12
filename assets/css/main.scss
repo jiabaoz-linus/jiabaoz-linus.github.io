@@ -153,12 +153,6 @@ h1:before, .anchor:before {
     margin-top: .2em;
 }
 
-.page__content .publication-summary {
-    margin-top: .45em;
-    font-size: .93em;
-    color: #626b73;
-}
-
 .publication-links {
     display: flex;
     flex-wrap: wrap;
@@ -167,6 +161,19 @@ h1:before, .anchor:before {
     padding-top: .65em;
     border-top: 1px solid #eef2f7;
     font-size: .9em;
+}
+
+/* Conference papers share the journal publication layout. */
+.conference-award {
+    display: inline-block;
+    margin-top: .65em;
+    padding: .2em .65em;
+    border: 1px solid #ebd6a6;
+    border-radius: 5px;
+    background: #fff8e8;
+    color: #805616;
+    font-size: .85em;
+    font-weight: 700;
 }
 
 .page__content h2 {

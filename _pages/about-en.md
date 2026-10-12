@@ -25,6 +25,8 @@ My research focuses on the reliable operation of energy systems. I combine relia
 
 - **Power system reliability and resilience**: cascading failures, coupled networks, and identification of critical equipment.
 - **Smart grid planning and operation**: system modeling, maintenance decisions, and optimization.
+- **Data center energy modeling and optimization**: energy consumption modeling and energy efficiency optimization.
+- **Low-altitude air traffic management**: modeling, planning, and optimization of low-altitude air traffic.
 - **Deep learning for fault diagnosis**: condition monitoring and fault identification in energy and communication infrastructure.
 - **AI for Energy**: artificial intelligence methods for energy systems.
 
@@ -40,15 +42,21 @@ My research focuses on the reliable operation of energy systems. I combine relia
 
 {% include publications.html %}
 
+<span class="anchor" id="conferences"></span>
+
+## Conferences
+
+{% include conferences.html %}
+
 <span class="anchor" id="patents"></span>
 
 ## Invention Patents
 
-- **A scheduling method for agricultural microgrids under communication-energy coupling uncertainty**<br>
+- **<span lang="zh-CN">一种考虑通信-能源耦合不确定下的农业微电网调度方法</span>**<br>
   Patent application number: CN2025120291830
-- **A method for constructing a reliability assessment and maintenance optimization model for offshore wind farms in the Internet of Things context**<br>
+- **<span lang="zh-CN">一种物联网背景下海上风电场可靠性评估与维护优化模型的构建方法</span>**<br>
   Patent application number: CN2024102165731
-- **A semantic-enhanced causal graph method for fault identification in low-altitude interconnected 5G base stations**<br>
+- **<span lang="zh-CN">一种语义增强因果图驱动的低空互联5G基站故障识别方法</span>**<br>
   Patent application number: CN2025120293643
 
 <span class="anchor" id="honors"></span>

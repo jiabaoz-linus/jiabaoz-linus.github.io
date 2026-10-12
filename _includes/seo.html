@@ -9,7 +9,7 @@
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
 
-<title>{{ page.title | default: site.title | escape }} | {{ ui.homepage_label }}</title>
+<title>{{ site.browser_title | default: page.title | default: site.title | escape }}</title>
 
 {% assign seo_description = page.description | default: site.description %}
 {% if seo_description %}

@@ -1,0 +1,14 @@
+<div class="publication-list conference-list" role="list">
+  {% for conference in site.data.conferences %}
+  <article class="publication-item conference-item" role="listitem">
+    <h3 class="publication-title conference-paper-title">{{ conference.paper_title | escape }}</h3>
+    <div class="publication-authors conference-authors">{% for author in conference.authors %}{% if author.highlight %}<strong>{{ author.name | escape }}</strong>{% else %}{{ author.name | escape }}{% endif %}{% if author.corresponding %}<sup>*</sup>{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}.</div>
+    <div class="publication-venue"><em>{{ conference.full_name | default: conference.name | escape }}{% if conference.full_name %} ({{ conference.name | escape }}){% endif %}</em>, {{ conference.year }}.</div>
+    {% if conference.award %}<strong class="conference-award">{{ conference.award | escape }}</strong>{% endif %}
+    {% if conference.url or conference.pdf %}<div class="publication-links">
+      {% if conference.url %}<a href="{{ conference.url | escape }}" target="_blank" rel="noopener noreferrer">Conference ↗</a>{% endif %}
+      {% if conference.pdf %}<a href="{{ conference.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">PDF ↗</a>{% endif %}
+    </div>{% endif %}
+  </article>
+  {% endfor %}
+</div>

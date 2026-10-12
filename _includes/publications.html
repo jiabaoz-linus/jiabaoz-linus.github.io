@@ -1,13 +1,10 @@
 {% assign ui = site.data.i18n[page.lang] %}
 <div class="publication-list" role="list">
   {% for paper in site.data.publications %}
-  {% assign paper_summary = paper.summary %}
-  {% if page.lang == 'en' %}{% assign paper_summary = paper.summary_en %}{% endif %}
   <article class="publication-item" role="listitem">
     <h3 class="publication-title">{% if paper.doi %}<a href="https://doi.org/{{ paper.doi | escape }}" target="_blank" rel="noopener noreferrer">{{ paper.title | escape }}</a>{% else %}{{ paper.title | escape }}{% endif %}</h3>
     <div class="publication-authors">{% for author in paper.authors %}{% if author == "J. Zhai" %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}.</div>
     <div class="publication-venue"><em>{{ paper.venue | escape }}</em>, {{ paper.year }}{% if paper.volume %}, {{ paper.volume | escape }}{% if paper.issue %}({{ paper.issue | escape }}){% endif %}{% endif %}.</div>
-    {% if paper_summary %}<p class="publication-summary">{{ paper_summary | escape }}</p>{% endif %}
     <div class="publication-links">
       {% if paper.doi %}<a href="https://doi.org/{{ paper.doi | escape }}" target="_blank" rel="noopener noreferrer">{{ ui.paper_label }} ↗</a>{% endif %}
       {% if paper.pdf %}<a href="{{ paper.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">PDF ↗</a>{% endif %}

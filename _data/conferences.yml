@@ -1,0 +1,11 @@
+- name: "SPIES"
+  full_name: "8th International Conference on Smart Power & Internet Energy Systems"
+  url: "https://www.icspies.org/"
+  year: 2026
+  award: "Best Presentation"
+  paper_title: "A Probabilistic Forecasting Method for eVTOL Battery Power-Delivery Margins Using Learned-Prior Diffusion Model"
+  authors:
+    - name: "Jiabao Zhai"
+      highlight: true
+    - name: "Xiangyu Li"
+      corresponding: true

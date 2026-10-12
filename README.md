@@ -5,6 +5,7 @@
 - 英文首页正文：`_pages/about-en.md`
 - 荣誉奖项（保留中文原名）：`_data/honors.yml`
 - 已发表论文：`_data/publications.yml`
+- 会议参与、报告论文与会议奖项：`_data/conferences.yml`
 - 教育背景和短期交流：`_data/education.yml`
 - 导航中的 CV：`files/Jiabao_CV.pdf`，更新时用新 PDF 覆盖此文件即可
 - 姓名、邮箱、头像、学术链接和访客统计：`_config.yml`
