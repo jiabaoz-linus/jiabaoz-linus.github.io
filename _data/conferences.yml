@@ -5,7 +5,7 @@
   award: "Best Presentation"
   paper_title: "A Probabilistic Forecasting Method for eVTOL Battery Power-Delivery Margins Using Learned-Prior Diffusion Model"
   authors:
-    - name: "Jiabao Zhai"
+    - name: "J. Zhai"
       highlight: true
-    - name: "Xiangyu Li"
+    - name: "X. Li"
       corresponding: true
