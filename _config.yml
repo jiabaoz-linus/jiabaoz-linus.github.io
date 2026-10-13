@@ -20,7 +20,8 @@ google_scholar_stats_use_cdn : false
 # Only public embed URLs belong here; keep the management password outside Git.
 visitor_counter:
   enabled: true
-  image_url: "https://flagcounter.me/api/counters/kJh/image"
+  # Use the public embed endpoint: the /api/counters/.../image route is a non-counting preview.
+  image_url: "https://flagcounter.me/kJh"
   stats_url: "https://flagcounter.me/details/kJh"
 
 # google analytics
